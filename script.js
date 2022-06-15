@@ -10,3 +10,9 @@ const WINNING_COMBINATIONS = [
   [3, 4, 5],
   [6, 7, 8]
 ];
+const cellElements = document.querySelectorAll('[data-cell]');
+const boardELement = document.getElementById('board');
+const winningMessageElement = document.getElementById('winningMessage');
+const restartButton = document.getElementById('restartButton');
+const winngingMessageTextElement = document.getElementById('winningMessageText');
+let isPlayer_O_Turn = false;
